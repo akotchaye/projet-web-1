@@ -1,0 +1,155 @@
+html,body{
+font-family: Arial,sans-serif;
+font-size: 12pt;
+width:100%;
+min-height: 100%;
+margin:0;
+}
+header{
+    height:60px;
+    width:100%;
+    background-color:black;
+    color:white;
+}
+header h1{
+text-align: center;
+margin-left: 10px;
+margin-right:10px;
+text-transform:uppercase;
+display:inline-block;
+vertical-align:top;
+line-height:40px;
+}
+header nav{
+display:inline-block;
+vertical-align:top;
+height: 100%;
+}
+header nav ul{
+    margin:0%;
+    height:100%;
+    list-style-type: none;
+}
+header nav ul li{
+display:inline-block;
+text-align:center;
+height: 150px;
+width:150px;
+margin:0;
+}
+header nav ul li a{
+    text-decoration: none;
+    color:white;
+   line-height:40px;
+   display:block;
+   width:100%;
+   height:37%;
+   transition:background-color 1s linear;
+}
+header nav ul li a:hover{
+    background:#333;
+
+}
+header nav ul li a:hover{
+    background-color: #333;
+    height:80%;
+    width:80%;
+    
+    
+}
+.home article{
+    height:70%;
+    padding:10px;
+    float:left;
+}
+
+.home article h2{
+    text-transform: uppercase;
+    text-align:justify;
+}
+.home article img{
+    max-width:30%;
+    float:left;
+    
+}
+.home article p{
+    text-align:justify;
+}
+.home article a{
+    color:red;
+    text-decoration:none;
+    float:right;
+}
+.home aside{
+    float:right;
+    width:30%;
+    padding:10px;
+    margin-top:20px;
+    background-color: #EEE;
+    border-radius:10px;
+    box-sizing:border-box;
+}
+.home aside ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+.home aside ul li{
+    margin:5px;
+}
+.home aside ul li a{
+    color:black;
+    text-decoration:none;
+    transition:color 1s ease-in;
+}
+.home aside ul li a:hover{
+
+    /*text-decoration:underline;*/
+    color:rgb(185, 76, 36)
+}
+footer{
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+background-color:black;
+color:white;
+padding:10px;
+height:150px;
+}
+footer ul{
+    list-style-type: none;
+
+}
+footer  a{
+    text-decoration:none;
+    color:#EEE;
+
+}
+footer  a:hover{
+    text-decoration:underline;
+}
+footer address{
+    position:absolute;
+    text-align:right;
+    bottom:10px;
+    right:10px;
+}
+footer address a{
+    display:block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
